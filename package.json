@@ -1,0 +1,29 @@
+{
+  "name": "meteor-npm-phantomjs",
+  "version": "1.0.0",
+  "description": "Meteor package wrapper for npm package phantomjs",
+  "main": "package.js",
+  "scripts": {
+    "test": "jshint --exclude-path .jshintignore --verbose . && spacejam test-packages ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csats/meteor-npm-phantomjs"
+  },
+  "author": {
+    "name": "C-SATS, Inc.",
+    "url": "http://www.csats.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csats/meteor-npm-phantomjs/issues"
+  },
+  "homepage": "https://github.com/csats/meteor-npm-phantomjs",
+  "dependencies": {
+    "jshint": "^2.7.0",
+    "spacejam": "^1.2.0"
+  },
+  "keywords": [
+    "meteor"
+  ]
+}
