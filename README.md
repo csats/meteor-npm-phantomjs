@@ -8,6 +8,8 @@ This Meteor package wraps the [phantomjs npm package](https://www.npmjs.com/pack
 
     meteor add csats:phantomjs
 
+This package exports the global variable `phantomjs`.
+
 ## See also
 
 * [upstream npm package](https://www.npmjs.com/package/phantomjs)
